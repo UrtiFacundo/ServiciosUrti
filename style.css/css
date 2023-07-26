@@ -1,0 +1,157 @@
+h1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 28px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+}
+
+body {
+    background-image: url(../img/background/background.png)
+}
+
+.text-center {
+    text-align: center;
+}
+
+.botonera {
+    background-color: rgb(243, 220, 212);
+}
+
+.botonera img {
+    width: auto;
+}
+
+nav {
+    background-color: beige;
+    padding: 15px 15px;
+    top: 0;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+nav,
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+nav,
+ul,
+li {
+    display: flex;
+    padding: 10px;
+
+
+}
+
+nav,
+ul,
+li,
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+
+}
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.btn-secondary {
+    background-color: darksalmon;
+}
+.card-boxes{
+background-color: rgb(243, 220, 212);
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 70px;
+    display: flex;
+}
+
+.pie-pagina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    padding: 70px 75px 115px 75px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    width: 340px;
+    background-color:rgb(243, 220, 212);
+}
+
+.slide {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 80%;
+    width: 100%;
+}
+
+.slide p {
+    color: black;
+    background-color: gray;
+
+}
+
+.slide h2 {
+    color: rgb(95, 95, 82);
+}
+
+
+
+
+
+
+@media (max-width: 1080px) {
+    body {
+       padding: 30px;
+    
+    }
+    form {
+        padding: 10px 10px;
+        width: 100%;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 330px) {
+  card-body {
+    padding-top: 30px;
+  }
+
+}
+}
+
+
+/*# sourceMappingURL=main.css.map */
