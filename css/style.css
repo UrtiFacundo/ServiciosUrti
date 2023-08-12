@@ -124,6 +124,19 @@ form {
     color: rgb(95, 95, 82);
 }
 
+.finalizar-compra {
+    margin-top: 3%;
+    margin-left: 45%;
+    justify-content: end;
+    background-color: white;
+}
+.card-finalizar{
+    text-align: center;
+}
+
+.servicio {
+    background-color: white;
+}
 
 
 
@@ -153,5 +166,3 @@ img {
 }
 }
 
-
-/*# sourceMappingURL=main.css.map */
